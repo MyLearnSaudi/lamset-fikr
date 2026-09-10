@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لمسة فِكر - خدمات تصميم احترافية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-lightbulb"></i>
+                <span>لمسة فِكر</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#services-students" class="nav-link">خدمات الطلاب</a></li>
+                <li><a href="#services-business" class="nav-link">خدمات الشركات</a></li>
+                <li><a href="#portfolio" class="nav-link">معرض الأعمال</a></li>
+                <li><a href="#testimonials" class="nav-link">آراء العملاء</a></li>
+                <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                <li><a href="admin.html" class="nav-link admin-link" title="لوحة التحكم"><i class="fas fa-cog"></i></a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>تحويل أفكارك إلى تصاميم احترافية</h1>
+            <p>نحن نقدم خدمات تصميم مخصصة للطلاب والشركات بأعلى معايير الجودة</p>
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                اطلب تصميمك الآن
+            </button>
+        </div>
+        <div class="hero-image">
+            <div class="design-element"></div>
+        </div>
+    </section>
+
+    <!-- Services for Students -->
+    <section id="services-students" class="services-section">
+        <h2>خدمات الطلاب</h2>
+        <div class="services-grid" id="student-services">
+            <div class="service-card">
+                <i class="fas fa-presentation"></i>
+                <h3>عروض PowerPoint احترافية</h3>
+                <p>تصاميم فريدة وجذابة لعروضك التقديمية</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-palette"></i>
+                <h3>شعارات دراسية</h3>
+                <p>شعارات مبتكرة لمشاريعك الأكاديمية</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-image"></i>
+                <h3>محتوى بصري أكاديمي</h3>
+                <p>رسوميات واضحة وجذابة لبحوثك</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-poster"></i>
+                <h3>بوسترات ومنشورات</h3>
+                <p>تصاميم ملفتة للانتباه لمشاريعك</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services for Business -->
+    <section id="services-business" class="services-section alt-bg">
+        <h2>خدمات الشركات</h2>
+        <div class="services-grid" id="business-services">
+            <div class="service-card">
+                <i class="fas fa-branding"></i>
+                <h3>هويات بصرية كاملة</h3>
+                <p>تصاميم متكاملة تعكس هوية شركتك</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-star"></i>
+                <h3>شعارات احترافية</h3>
+                <p>شعارات فريدة وقابلة للتطبيق على جميع المنصات</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-ads"></i>
+                <h3>محتوى إعلاني</h3>
+                <p>بوسترات وإعلانات احترافية للترويج</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-file-pdf"></i>
+                <h3>ملفات تعريفية</h3>
+                <p>Company Profiles احترافية وشاملة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>معرض الأعمال</h2>
+        <div class="portfolio-grid" id="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                <h3>عرض تقديمي احترافي</h3>
+                <p>PowerPoint - للطلاب</p>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                <h3>شعار شركة ناشئة</h3>
+                <p>هوية بصرية - للشركات</p>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                <h3>حملة إعلانية</h3>
+                <p>محتوى بصري - للشركات</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section alt-bg">
+        <h2>آراء العملاء</h2>
+        <div class="testimonials-grid" id="testimonials-grid">
+            <div class="testimonial-card">
+                <p>"خدمة احترافية جداً، التصميم تجاوز توقعاتي!"</p>
+                <h4>أحمد محمد</h4>
+                <span>طالب</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"فريق متعاون وسريع في التسليم. موصى به جداً!"</p>
+                <h4>فاطمة علي</h4>
+                <span>صاحبة مشروع</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"الشعار اللي قدموه لنا صار هويتنا البصرية المميزة."</p>
+                <h4>محمد عبدالرحمن</h4>
+                <span>مدير شركة</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>تواصل معنا</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>معلومات التواصل</h3>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <p>رقم الجوال</p>
+                        <a href="https://wa.me/966533490339">+966 53 349 0339</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <p>البريد الإلكتروني</p>
+                        <a href="mailto:info@lamsetfikr.com">info@lamsetfikr.com</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" title="إنستقرام"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="لينكدإن"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="اسمك" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="بريدك الإلكتروني" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="موضوع الطلب" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="اكتب تفاصيل طلبك..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">إرسال الطلب</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 لمسة فِكر. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
